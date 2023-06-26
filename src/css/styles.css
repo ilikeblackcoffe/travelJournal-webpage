@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Diphylleia&family=Gilda+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Gilda Display";
+}
+
+#root {
+    margin-left: -15px;
+}
+
+.pin {
+    width: 40px;
+    mix-blend-mode: multiply;
+}
+
+a {
+    color: rgb(30, 30, 30);
+}
+
+/* Header Style */
+
+.header--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #F9F5F6;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, .2);
+}
+
+.header--div > h1{
+    font-size: 4rem;  
+}
+
+.header--icon {
+    height: 60px;
+    width: 55px;
+    margin-top: 5px;
+    mix-blend-mode: multiply;
+}
+
+/* Body Style */
+
+.body--div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+/* Places Style */
+
+.places--div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.places--img {
+    width: 400px;
+    height: 236.69px;
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, .5);
+}
+
+.places--info {
+    margin-left: 10px;
+}
+
+.places--info > h2 {
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.places--info > p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.places--firstRow {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    height: 40px;
+    
+}
+
+.places--firstRow > h4 {
+    font-size: 1em;
+}
+
+.places--firstRow > p {
+    margin-left: 40px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Footer Style */
+
+.footer--div {
+    background-color: #fdf9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
